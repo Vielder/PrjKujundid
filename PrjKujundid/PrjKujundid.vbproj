@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kolmnurk.vb" />
     <Compile Include="formKujundid.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +97,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Nelinurk.vb" />
+    <Compile Include="Ristkylik.vb" />
+    <Compile Include="Romb.vb" />
+    <Compile Include="Roopkulik.vb" />
+    <Compile Include="Ruut.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="formKujundid.resx">
